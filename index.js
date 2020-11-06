@@ -1,4 +1,4 @@
-
+resize();
 window.addEventListener( "resize", () => resize() );
 
 function resize()
