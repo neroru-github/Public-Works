@@ -3,6 +3,8 @@ window.addEventListener( "resize", () => resize() );
 
 function resize()
 {
+	console.log( "resize" );
+	
 	const width = document.documentElement.clientWidth;
 	document.querySelector( "#Width span" ).textContent = String( width );
 
